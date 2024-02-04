@@ -13,6 +13,7 @@
 		2E6E0C3B2B6EFA14001BD468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E0C392B6EFA14001BD468 /* Main.storyboard */; };
 		2E6E0C3D2B6EFA15001BD468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E0C3C2B6EFA15001BD468 /* Assets.xcassets */; };
 		2E6E0C402B6EFA15001BD468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E0C3E2B6EFA15001BD468 /* LaunchScreen.storyboard */; };
+		2E6E0C482B6EFA43001BD468 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E0C472B6EFA43001BD468 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2E6E0C3C2B6EFA15001BD468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6E0C3F2B6EFA15001BD468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E6E0C412B6EFA15001BD468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6E0C472B6EFA43001BD468 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2E6E0C3C2B6EFA15001BD468 /* Assets.xcassets */,
 				2E6E0C3E2B6EFA15001BD468 /* LaunchScreen.storyboard */,
 				2E6E0C412B6EFA15001BD468 /* Info.plist */,
+				2E6E0C472B6EFA43001BD468 /* Inceptionv3.mlmodel */,
 			);
 			path = CamAI;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6E0C382B6EFA14001BD468 /* ViewController.swift in Sources */,
+				2E6E0C482B6EFA43001BD468 /* Inceptionv3.mlmodel in Sources */,
 				2E6E0C342B6EFA14001BD468 /* AppDelegate.swift in Sources */,
 				2E6E0C362B6EFA14001BD468 /* SceneDelegate.swift in Sources */,
 			);
@@ -307,9 +311,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirabravesh.CamAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +343,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirabravesh.CamAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
